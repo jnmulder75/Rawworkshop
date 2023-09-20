@@ -36,7 +36,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo  FIRST CHANGE,
-          uname -a > ${{ github.workspace }}/release.txt
+          ls > ${{ github.workspace }}/release.txt
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.1.3
         with:

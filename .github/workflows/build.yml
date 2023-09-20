@@ -28,8 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
-        run: FIRST CHANGE
-        run: lsb_release -a > ${{ github.workspace }}/release.txt
+            echo  FIRST CHANGE
+            lsb_release -a > ${{ github.workspace }}/release.txt
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
